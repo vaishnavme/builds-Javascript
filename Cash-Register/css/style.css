@@ -87,6 +87,10 @@ table {
     table-layout: fixed;
     border-collapse: collapse;
 }
+table.tb-hide {
+    display: none;
+}
+
 td {
     width: 50%;
     font-size: 18px;
