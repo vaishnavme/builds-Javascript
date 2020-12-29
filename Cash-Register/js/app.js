@@ -38,7 +38,7 @@ function cashHandler() {
     if(billAmount == "" | cashGiven == "") {
         showMessage.innerText = "Invalid Cash Amount"
     } else if(billAmount > cashGiven) {
-        showMessage.innerHTML = "Insufficient Cash"
+        showMessage.innerText = "Insufficient Cash"
     } else if(billAmount == cashGiven) {
         showMessage.innerText = "No cash to return"
     } else {
