@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cash Register Manager</h1>
+        <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+
+        <input id="billAmount" type="number" placeholder="Bill Amount">
+        <input id="cashGiven" type="number" placeholder="Cash Given">
+        <div class="button" id="enter" type="submit">Enter</div>
+        <h2 id="showInfo">Cash</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.of Notes</td>
+                        <th>Note</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="active-row">
+                    <td class="amount">2000</td>
+                    <td class="noNotes">0</td>
+                </tr>
+                <tr>
+                    <td class="amount">500</td>
+                    <td class="noNotes">0</td>
+                </tr>
+                <tr>
+                    <td class="amount">200</td>
+                    <td class="noNotes">0</td>
+                </tr>
+                <tr>
+                    <td class="amount">100</td>
+                    <td class="noNotes">0</td>
+                </tr>
+                <tr>
+                    <td class="amount">50</td>
+                    <td class="noNotes">0</td>
+                </tr>
+                <tr>
+                    <td class="amount">20</td>
+                    <td class="noNotes">0</td>
+                </tr>
+                <tr>
+                    <td class="amount">10</td>
+                    <td class="noNotes">0</td>
+                </tr>
+                <tr>
+                    <td class="amount">5</td>
+                    <td class="noNotes">0</td>
+                </tr>
+                <tr>
+                    <td class="amount">1</td>
+                    <td class="noNotes">0</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
