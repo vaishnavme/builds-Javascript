@@ -7,7 +7,7 @@ var showMessage = document.querySelector("#showInfo");
 const enter = document.querySelector("#enter");
 
 
-const noteArray = [2000, 500, 200, 100, 50, 10, 5, 2, 1]
+const noteArray = [2000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
 
 function processCash(bill, cash) {
     var returnAmt = cash - bill;
