@@ -10,7 +10,7 @@
 
 
 
-| #              |  Project              |  Live Demo                                                                       | 
-| :------------- | :--------------------:| :------------------------------------------------------------------------------: |
-|  01            | Cash Register         |[Live Demo](https://vaishnavme.github.io/builds-Javascript/Cash-Register/)        |
-|  02            | Zen Beats - Music Player|[Live Demo](https://zenbeats.netlify.app/)        |
+| #              |  Project              |  Live Demo                                                                       | Source Code |
+| :------------- | :--------------------:| :------------------------------------------------------------------------------: |:------------------------------------------------------------------------------:|
+|  01            | Cash Register         |[Live Demo](https://vaishnavme.github.io/builds-Javascript/Cash-Register/)        |[Source Code](https://github.com/vaishnavme/builds-Javascript/tree/main/Cash-Register)|
+|  02            | Zen Beats - Music Player|[Live Demo](https://zenbeats.netlify.app/)        |[Source Code](https://github.com/vaishnavme/Zen-lofi-beats-player) |
