@@ -12,4 +12,5 @@
 
 | #              |  Project              |  Live Demo                                                                       | 
 | :------------- | :--------------------:| :------------------------------------------------------------------------------: |
-|  01            | Cash Register         |[Live Demo](https://vaishnavme.github.io/builds-Javascript/Cash-Register/)    |
+|  01            | Cash Register         |[Live Demo](https://vaishnavme.github.io/builds-Javascript/Cash-Register/)        |
+|  02            | Zen Beats - Music Player|[Live Demo](https://zenbeats.netlify.app/)        |
