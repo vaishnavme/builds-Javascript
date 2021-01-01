@@ -1,3 +1,4 @@
+
 const currencyOne = document.getElementById('currency-one');
 const currencyTwo = document.getElementById('currency-two');
 const amtOne = document.getElementById('amount-one');
@@ -15,8 +16,9 @@ function calculate() {
     .then(res => res.json())
     .then(data => {
         console.log(data);
+        const rateKey = Object.keys(data.rates)
+        console.log(rateKey)
         const rate = data.rates[currTwo];
-        console.log(rate);
         rate.innerText = `1 ${currOne} = ${rate} ${currTwo}`;
         amtTwo.value = (amtOne.value * rate).toFixed(2);
     });
