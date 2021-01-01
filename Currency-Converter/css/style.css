@@ -1,12 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-color: #f9f7cf;
+    color: #172020;
+    height: 100%;
+}
+h1 {
+    color: #54e346;
 }
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 600px;
-    margin: auto;
+    min-height: 50vh;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 7px 8px 42px -8px rgba(150,150,150,0.74);
+    background-color: #ffffff;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+}
+.converter {
+    margin-top: 2rem;
+}
+.currency {
+    margin: 1rem auto;
+}
+select {
+    width: 100px;
+    height: 35px;
+    margin: 0.5rem 2rem;
+    border-radius: 8px;
+    border: 2px solid #172020;
+}
+input {
+    width: 200px;
+    height: 30px;
+    margin: 0.5rem 2rem;
+    border-radius: 8px;
+    border: 2px solid #172020;
+    text-align: center;
+    font-size: 18px;
+}
+select:focus, input:focus {
+    outline: none;
+}
+button {
+    width: 150px;
+    padding: 0.5rem 1rem;
 }
