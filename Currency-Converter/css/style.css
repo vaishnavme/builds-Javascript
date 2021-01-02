@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 :root {
     --bodyColor: #F4E7DD;
+    --containerColor: #EAF7F9;
+    --boxColor: #EDF9E9;
     --headingColor: #26AB98;
     --borderColor: #FA8553;
     --shadowColor: rgba(150,150,150,0.74);
@@ -28,8 +30,8 @@ h1 {
     padding: 1rem 1rem;
     text-align: center;
     box-shadow: 7px 8px 42px -8px var(--shadowColor);
-    background-color: #EAF7F9;
-    border: 10px solid #ffffff;
+    background-color: var(--containerColor);
+    border: 10px solid #fcf4f4;
     border-radius: 8px;
 }
 .converter {
@@ -50,18 +52,18 @@ select {
     width: 170px;
     height: 35px;
     margin: 0.5rem 0.5rem;
-    border-radius: 8px;
+    border-radius: 5px;
     font-size: 18px;
     border: 2px solid var(--borderColor);
-    background-color: #EDF9E9;
+    background-color: var(--boxColor);
 }
 
 input {
     width: 200px;
     height: 30px;
     margin: 0.5rem 0.5rem;
-    border-radius: 8px;
-    background-color: #EDF9E9;
+    border-radius: 5px;
+    background-color: var(--boxColor);
     border: 2px solid var(--borderColor);
     text-align: center;
     font-size: 18px;
@@ -71,4 +73,7 @@ select:focus, input:focus, button:focus {
 }
 footer p {
     margin: 10px auto;
+}
+footer a {
+    margin: 0 10px;
 }
