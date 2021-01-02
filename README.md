@@ -14,3 +14,4 @@
 | :------------- | :--------------------:| :------------------------------------------------------------------------------: |:------------------------------------------------------------------------------:|
 |  01            | Cash Register         |[Live Demo](https://vaishnavme.github.io/builds-Javascript/Cash-Register/)        |[Source Code](https://github.com/vaishnavme/builds-Javascript/tree/main/Cash-Register)|
 |  02            | Zen Beats - Music Player|[Live Demo](https://zenbeats.netlify.app/)        |[Source Code](https://github.com/vaishnavme/Zen-lofi-beats-player) |
+|  03            | Currency Converter     |[Live Demo](https://vaishnavme.github.io/builds-Javascript/Currency-Converter/)  |[Source Code](https://github.com/vaishnavme/builds-Javascript/tree/main/Currency-Converter)|
