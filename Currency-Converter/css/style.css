@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+:root {
+    --bodyColor: #F4E7DD;
+    --headingColor: #26AB98;
+    --borderColor: #FA8553;
+    --shadowColor: rgba(150,150,150,0.74);
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,33 +12,35 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    background-color: #f9f7cf;
+    background-color: var(--bodyColor);
     color: #172020;
     height: 100%;
 }
 h1 {
-    color: #54e346;
+    color: var(--headingColor);
+    font-weight: 300;
+    font-size: 40px;
+    margin: 0.5rem;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 600px;
-    margin: 2rem auto;
-    padding: 2rem 1rem;
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 1rem 1rem;
     text-align: center;
-    box-shadow: 7px 8px 42px -8px rgba(150,150,150,0.74);
-    background-color: #ffffff;
+    box-shadow: 7px 8px 42px -8px var(--shadowColor);
+    background-color: #EAF7F9;
     border: 10px solid #ffffff;
     border-radius: 8px;
 }
 .converter {
     padding: 1rem;
     max-width: 460px;
-    margin: 2rem auto;
+    margin: 0.5rem auto;
 }
 .currency {
-    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem auto;
 }
 img {
     border-radius: 8px;
@@ -44,39 +52,23 @@ select {
     margin: 0.5rem 0.5rem;
     border-radius: 8px;
     font-size: 18px;
-    border: 2px solid #172020;
+    border: 2px solid var(--borderColor);
+    background-color: #EDF9E9;
 }
-input.show {
-    width: 100%;
-    margin: 1rem auto;
-    height: 50px;
-    font-size: 22px;
-}
+
 input {
     width: 200px;
     height: 30px;
     margin: 0.5rem 0.5rem;
     border-radius: 8px;
-    border: 2px solid #172020;
+    background-color: #EDF9E9;
+    border: 2px solid var(--borderColor);
     text-align: center;
     font-size: 18px;
 }
 select:focus, input:focus, button:focus {
     outline: none;
 }
-button {
-    width: 340px;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    font-size: 16px;
-    background-color: #54e346;
-    color: #ffffff;
-    border: 2px solid #49c73e;
-    box-shadow: 7px 8px 42px -8px rgba(150,150,150,0.74);
-    transition: all ease-in-out 300ms;
-}
-button:hover {
-    cursor: pointer;
-    transform: scale(0.97);
-    font-size: 16px;
+footer p {
+    margin: 10px auto;
 }
