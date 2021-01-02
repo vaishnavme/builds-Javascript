@@ -18,9 +18,8 @@ h1 {
     flex-direction: column;
     align-items: center;
     width: 600px;
-    min-height: 50vh;
-    margin: 1rem auto;
-    padding: 1rem;
+    margin: 2rem auto;
+    padding: 2rem 1rem;
     text-align: center;
     box-shadow: 7px 8px 42px -8px rgba(150,150,150,0.74);
     background-color: #ffffff;
@@ -33,26 +32,42 @@ h1 {
 .currency {
     margin: 1rem auto;
 }
-select {
-    width: 100px;
-    height: 35px;
-    margin: 0.5rem 2rem;
+img {
     border-radius: 8px;
+}
+select {
+    width: 170px;
+    height: 35px;
+    margin: 0.5rem 0.5rem;
+    border-radius: 8px;
+    font-size: 18px;
     border: 2px solid #172020;
 }
 input {
     width: 200px;
     height: 30px;
-    margin: 0.5rem 2rem;
+    margin: 0.5rem 0.5rem;
     border-radius: 8px;
     border: 2px solid #172020;
     text-align: center;
     font-size: 18px;
 }
-select:focus, input:focus {
+select:focus, input:focus, button:focus {
     outline: none;
 }
 button {
-    width: 150px;
+    width: 340px;
     padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #54e346;
+    color: #ffffff;
+    border: 2px solid #49c73e;
+    box-shadow: 7px 8px 42px -8px rgba(150,150,150,0.74);
+    transition: all ease-in-out 300ms;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(0.97);
+    font-size: 16px;
 }
