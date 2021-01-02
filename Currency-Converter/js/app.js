@@ -1,8 +1,10 @@
 const currencyOne = document.querySelector('#currency-one');
 const currencyTwo = document.querySelector('#currency-two');
+const showConverted = document.querySelector("#show")
+const convertbtn = document.querySelector("#check");
 
 const amtOne = document.querySelector('#amount-one');
-const amtTwo = document.querySelector('#amount-two');
+
 
 function append(pareantEl, childEl) {
     return pareantEl.appendChild(childEl);
@@ -25,21 +27,28 @@ fetch(`https://api.exchangeratesapi.io/latest?base=`)
     }
 }); 
 
+
 function calculate() {
     let currOne = currencyOne.value;
     let currTwo = currencyTwo.value;
+    if(currOne == "" || currTwo == "") {
+        showConverted.value = "Please Select Currency";
+        return
+    }
     fetch(`https://api.exchangeratesapi.io/latest?base=${currOne}`)
     .then(res => res.json())
     .then(data => {
         const rate = data.rates[currTwo];
-        amtTwo.value = (amtOne.value * rate).toFixed(2);
+        showConverted.value = (amtOne.value * rate).toFixed(2);
     });
 }
-
-
+swap.addEventListener('click', () => {
+    const temp = currencyOne.value;
+    currencyOne.value = currencyTwo.value;
+    currencyTwo.value = temp;
+    calculate();
+});
 currencyOne.addEventListener('change', calculate);
 amtOne.addEventListener('input', calculate);
 currencyTwo.addEventListener('change', calculate);
-amtTwo.addEventListener('input', calculate);
-
-
+convertbtn.addEventListener("click", calculate)

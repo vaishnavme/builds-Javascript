@@ -27,7 +27,9 @@ h1 {
     border-radius: 8px;
 }
 .converter {
-    margin-top: 2rem;
+    padding: 1rem;
+    max-width: 460px;
+    margin: 2rem auto;
 }
 .currency {
     margin: 1rem auto;
@@ -35,6 +37,7 @@ h1 {
 img {
     border-radius: 8px;
 }
+
 select {
     width: 170px;
     height: 35px;
@@ -42,6 +45,12 @@ select {
     border-radius: 8px;
     font-size: 18px;
     border: 2px solid #172020;
+}
+input.show {
+    width: 100%;
+    margin: 1rem auto;
+    height: 50px;
+    font-size: 22px;
 }
 input {
     width: 200px;
