@@ -8,9 +8,7 @@ const totalSilde = slides.length;
 let currentSlidePosition = 0;
 
 function displaySlide() {
-    console.log("display");
     for(slide of slides) {
-        console.log(currentSlidePosition)
         slide.classList.remove("carousel-visible");
     }
     slides[currentSlidePosition].classList.add("carousel-visible");
@@ -29,6 +27,7 @@ function nextSlide() {
     if(currentSlidePosition > totalSilde - 1) {
         currentSlidePosition = 0;
     }
+    displaySlide()
 }
 
 prev.addEventListener("click", previousSlide)
