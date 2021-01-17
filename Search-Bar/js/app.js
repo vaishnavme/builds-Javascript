@@ -23,6 +23,7 @@ async function getCharacter() {
 }
 
 function displayCharacter(character) {
+    console.log(character)
     let listItems = character.map((person) => {
         return `<li>
             <img src=${person.image} alt=${person.name}>
