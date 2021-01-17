@@ -1,7 +1,7 @@
 const searchBar = document.querySelector("#inputText");
 const characterList = document.querySelector("#character-list");
 
-const API = 'http://hp-api.herokuapp.com/api/characters'
+const API = 'https://hp-api.herokuapp.com/api/characters'
 
 let character = [];
 
