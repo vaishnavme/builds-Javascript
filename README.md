@@ -3,9 +3,11 @@
 
 ### Vanilla Javascript Projects
 
-#### Features
+Mini Projects build with aim to learn JavaScript and Try what I learned to by working on Projects.
 
-- Every project is built with Vanilla JavaScript
+#### Features of Projects
+
+- Every project is built with Vanilla JavaScript.
 - Responsive Design
 
 
